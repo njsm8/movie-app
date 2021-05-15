@@ -27,7 +27,7 @@ function App() {
   const handleOnSubmit = (e) => {
     e.preventDefault();
 
-    fetch(SEARCH_API + searchTerm)
+    fetch(searchTerm ? SEARCH_API + searchTerm : FEATURED_API)
       .then((res) => res.json())
       .then((data) => {
         setMovies(data.results);
