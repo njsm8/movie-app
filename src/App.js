@@ -3,7 +3,7 @@ import "./App.css";
 import Movie from "./components/Movie";
 
 const FEATURED_API =
-  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=dd39ea27a0713accaf681d5e513e7ac4&page=1";
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=dd39ea27a0713accaf681d5e513e7ac4";
 
 const SEARCH_API =
   "https://api.themoviedb.org/3/search/movie?&api_key=dd39ea27a0713accaf681d5e513e7ac4&query=";
